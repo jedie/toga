@@ -31,10 +31,10 @@ setup(
     url='http://pybee.org/toga',
     packages=find_packages(exclude='tests'),
     install_requires=[
-        'toga-core==%s' % version,
+        'toga-core',
     ],
     tests_require=[
-        'toga-dummy==%s' % version
+        'toga-dummy'
     ],
     license='New BSD',
     classifiers=[

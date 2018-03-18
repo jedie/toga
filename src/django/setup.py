@@ -34,10 +34,10 @@ setup(
     install_requires=[
         'django==1.10.6',
         'django-environ==0.4.1',
-        'toga-core==%s' % version,
+        'toga-core',
     ],
     tests_require=[
-        'toga-dummy==%s' % version
+        'toga-dummy'
     ],
     license='New BSD',
     classifiers=[

@@ -38,7 +38,7 @@ setup(
         'travertino>=0.1.0'
     ],
     tests_require=[
-        'toga-dummy==%s' % version
+        'toga-dummy'
     ],
     license='New BSD',
     classifiers=[

@@ -32,10 +32,10 @@ setup(
     packages=find_packages(exclude='tests'),
     install_requires=[
         'pythonnet',
-        'toga-core==%s' % version,
+        'toga-core',
     ],
     tests_require=[
-        'toga-dummy==%s' % version
+        'toga-dummy'
     ],
     license='New BSD',
     classifiers=[

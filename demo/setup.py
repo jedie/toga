@@ -35,7 +35,7 @@ setup(
         'toga_demo': ['icons/*.icns', 'icons/*.png'],
     },
     install_requires=[
-        'toga==%s' % version
+        'toga'
     ],
     entry_points={
         'console_scripts': [
@@ -62,32 +62,32 @@ setup(
         },
         'ios': {
             'app_requires': [
-                'toga-ios==%s' % version,
+                'toga-ios',
             ]
         },
         'django': {
             'app_requires': [
-                'toga-django==%s' % version,
+                'toga-django',
             ]
         },
         'macos': {
             'app_requires': [
-                'toga-cocoa==%s' % version,
+                'toga-cocoa',
             ]
         },
         'linux': {
             'app_requires': [
-                'toga-gtk==%s' % version,
+                'toga-gtk',
             ]
         },
         'windows': {
             'app_requires': [
-                'toga-winform==%s' % version,
+                'toga-winform',
             ]
         },
         'android': {
             'app_requires': [
-                'toga-android==%s' % version,
+                'toga-android',
             ]
         }
     }
